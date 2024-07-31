@@ -14,7 +14,7 @@ public class CrosswordGrid {
     private void initializeGrid() {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                grille[i][j] = new Case(CaseType.Lettre);
+                grille[i][j] = new Case(CaseType.BLANCHE);
             }
         }
     }
@@ -26,7 +26,7 @@ public class CrosswordGrid {
     }
 
     public void setCellDefinition(int row, int col, Definition definition) {
-        if (isValidCell(row, col) && grille[row][col].getType() == CaseType.Definition) {
+        if (isValidCell(row, col) && grille[row][col].getType() == CaseType.GRISE) {
             grille[row][col].setDefinition(definition);
         }
     }

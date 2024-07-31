@@ -44,7 +44,7 @@ public class GridController {
     }
 
     private void handleCellClick(int row, int col, Button btn) {
-        ChoiceDialog<String> typeDialog = new ChoiceDialog<>("Lettre", "Lettre", "Vide", "Definiton");
+        ChoiceDialog<String> typeDialog = new ChoiceDialog<>("Blanche", "Blanche", "Noir", "Grise");
         typeDialog.setTitle("Type de cellule");
         typeDialog.setHeaderText("Choisissez le type de cellule:");
         typeDialog.setContentText("Type:");
@@ -52,6 +52,7 @@ public class GridController {
         String choice = typeDialog.showAndWait().orElse("Blanche");
         gridModel.setCell(row, col, CaseType.valueOf(choice.toUpperCase()));
 
+        // Créer un VBox pour contenir le bouton et l'image
         VBox vbox = new VBox();
         vbox.setSpacing(5);  // Espacement entre le bouton et l'image
 
@@ -68,18 +69,19 @@ public class GridController {
                 break;
         }
 
+        // Ajouter le bouton au VBox
         vbox.getChildren().add(btn);
 
         // Ajouter l'image si elle est nécessaire
-        if (gridModel.getCellDefinition(row, col) != null) {
-            Direction direction = gridModel.getCellDirection(row, col);
-            String iconPath = getIconPathForDirection(direction);
+        if (btn.getGraphic() != null) {
+            String iconPath = getIconPathForDirection(gridModel.getCellDirection(row, col));
             ImageView imageView = new ImageView(new Image(getClass().getResourceAsStream(iconPath)));
             imageView.setFitHeight(20);
             imageView.setFitWidth(20);
             vbox.getChildren().add(imageView);
         }
 
+        // Ajouter le VBox à la grille
         gridPane.add(vbox, col, row);
     }
 
@@ -118,13 +120,11 @@ public class GridController {
             case droit_bas:
                 return "/resources/icons/arrow_left.png";
             case bas_bas:
-                return "/resources/icons/arrow_left.png";
+                return "/resources/icons/arrow_down.png";
             case bas_droit:
                 return "/resources/icons/arrow_up.png";
             default:
                 return ""; // Cas par défaut, devrait être géré de manière appropriée
         }
     }
-
-
 }

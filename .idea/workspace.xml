@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a11353-30b9-4eef-83d6-fe8f9ee98b87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Motfleche/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Motfleche/CrosswordGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Motfleche/Definition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Motfleche/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Motfleche/GridController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Motfleche/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Motfleche/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/arrow_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/arrow_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/arrow_up.png" afterDir="false" />
+    <list default="true" id="c2a11353-30b9-4eef-83d6-fe8f9ee98b87" name="Changes" comment="mots fleche first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Motfleche/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Motfleche/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Motfleche/CrosswordGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Motfleche/CrosswordGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Motfleche/GridController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Motfleche/GridController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Simoniaque"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Simoniaque/Projet-Rattrapage.git",
+    "accountId": "70deb1f4-a674-48ff-b723-ecae3c91c335"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -104,8 +97,17 @@
       <workItem from="1722007737555" duration="3048000" />
       <workItem from="1722272464634" duration="1737000" />
       <workItem from="1722358896130" duration="13554000" />
-      <workItem from="1722444711403" duration="9001000" />
+      <workItem from="1722444711403" duration="10823000" />
     </task>
+    <task id="LOCAL-00001" summary="mots fleche first commit">
+      <option name="closed" value="true" />
+      <created>1722462532262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722462532262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="mots fleche first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="mots fleche first commit" />
   </component>
 </project>

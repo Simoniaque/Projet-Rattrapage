@@ -26,7 +26,7 @@ public class Case {
 }
 
 enum CaseType {
-    Lettre,
-    Definition,
-    Vide
+    BLANCHE,
+    GRISE,
+    NOIRE
 }
